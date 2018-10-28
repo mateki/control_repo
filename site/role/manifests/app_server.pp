@@ -1,5 +1,5 @@
 class role::app_server {
-  include porfile::web
-  include profile::app
+  include profile::web
   include profile::base
+  include profile::app
 }
