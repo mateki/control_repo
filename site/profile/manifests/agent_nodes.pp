@@ -1,6 +1,6 @@
 class profile::agent_nodes {
   include dockeragent
-  include ::ssh
+  include ssh
   dockeragent::node { 'web.puppet.vm': }
   dockeragent::node { 'db.puppet.vm': }
   
